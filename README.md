@@ -1,1 +1,1 @@
-MatLab scripts for NMR data processing
+MATLAB scripts for NMR data processing
