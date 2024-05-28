@@ -26,6 +26,7 @@ buna_data = table2array(I_P_data(:,3));
 silicone_data = table2array(I_P_data(:,4));
 pvc_data = table2array(I_P_data(:,5));
 
+% larmor frequency vs height plot
 figure (1)
 hold on
 grid on
@@ -36,6 +37,7 @@ ylim([0 1.1*max(f)])
 xlabel('h (mm)')
 ylabel('f (kHz)')
 
+% T1 plots
 figure (2)
 hold on
 grid on
